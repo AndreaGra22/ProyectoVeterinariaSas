@@ -34,7 +34,7 @@ button {
     font-size: 16px;
 }
 
-#userForm button {
+/*#userForm button {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #456fa0;
@@ -45,7 +45,7 @@ button {
 
 #userForm button:hover {
     background-color: #456fa0;
-}
+}*/
 
 /* Estilo para la lista de usuarios */
 ul {
