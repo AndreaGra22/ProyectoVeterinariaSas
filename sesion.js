@@ -14,6 +14,6 @@ button.addEventListener('click', (e) => {
         window.location="index.html";
     }
     else{
-        alert("Datos incorrectos",'','error')
+        swal("Datos incorrectos",'','error')
     }
 })
