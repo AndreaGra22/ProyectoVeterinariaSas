@@ -9,8 +9,8 @@ button.addEventListener('click', (e) => {
         password: password.value
     }
     console.log(data)
-    debugger
-    if(username == "admin" && password == "1234"){
+  
+    if(data.username =="admin" && data.password =="1234"){
         window.location="index.html";
     }
     else{
