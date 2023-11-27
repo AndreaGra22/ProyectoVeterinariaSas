@@ -1,12 +1,19 @@
-const name = document.getElementById('name')
+const username = document.getElementById('username')
 const password = document.getElementById('password')
 const button = document.getElementById('button')
 
-button.addEventListener('click', (e)=>{
+button.addEventListener('click', (e) => {
     e.preventDefault()
     const data = {
         username: username.value,
         password: password.value
     }
     console.log(data)
+    debugger
+    if(username == "admin" && password == "1234"){
+        window.location="index.html";
+    }
+    else{
+        alert("Datos incorrectos")
+    }
 })
